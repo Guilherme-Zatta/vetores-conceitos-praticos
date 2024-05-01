@@ -8,7 +8,7 @@ public class Exercicio01 {
         String[] nomes = new String[10];
 
         for (int i = 0; i < 10; i++) {
-            System.out.printf("Informe o nome da pessoa: ", + (i + 1) + ", ");
+            System.out.printf("Informe um nome: ", + (i + 1) + ", ");
             nomes [i] = scanner.nextLine();
         }
         
